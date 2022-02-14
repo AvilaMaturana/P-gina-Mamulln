@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@font-face{
+    font-family: 'miFuentebold';
+    src: url(../tipo/Gotham-Bold.otf);
+}
+
+@font-face{
+    font-family: 'miFuentemedium';
+    src: url(../tipo/Gotham-Medium.otf);
+}
+
+@font-face{
+    font-family: 'miFuentelight';
+    src: url(../tipo/Gotham-Light.otf);
+}
+
+*{
+    border: 1px solid red;
+}
+
+.bg-dark{
+    background-color: black!important;
+}
+
+:root{
+    --primary-color: #5E3E1A; 
+    --font-navbar: 'Roboto', sans-serif;
+    --font-tittle: 'miFuentebold';
+    --font-subtittle: 'miFuentemedium';
+    --font-text: 'miFuentelight';
+}
+
+
+/* HEADER */
+
+
+header img{
+    width: 6.625rem;
+    height: auto;
+}
+
