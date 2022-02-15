@@ -54,18 +54,19 @@ nav a{
     color: white;
     font-family: var(--font-subtittle);
     text-decoration: none;
-    font-size: 1.125rem;
+    font-size: 1rem;
 }
 
 
 /* HEROSECTION */
 
 #heroSection{
-    background-image: url(../img/HeroSectionimage.png);
-    background-size: cover;
+    background-image: url(../img/HeroSectionimage.png);    
     background-repeat: no-repeat;
-    background-position: center center;  
-      
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;      
 }
 
 #heroSection h1{
@@ -77,3 +78,63 @@ nav a{
     font-family: var(--font-subtittle);   
     box-shadow: 0px 3px 6px black; 
 }
+
+/* PORTAFOLIO */
+
+.col-xs-5,
+
+.col-sm-5,
+
+.col-md-5,
+
+.col-lg-5 {
+
+  min-height: 1px; 
+
+  position: relative;
+
+}
+
+.col-xs-5 {
+
+  float: left;
+
+  width: 20%;
+
+}
+
+@media (min-width: 768px) {
+
+    .col-sm-5 {
+  
+      float: left;
+  
+      width: 20%;
+  
+    }
+  
+  }
+  
+  @media (min-width: 992px) {
+  
+    .col-md-5 {
+  
+      float: left;
+  
+      width: 20%;
+  
+    }
+  
+  }
+  
+  @media (min-width: 1200px) {
+  
+    .col-lg-5 {
+  
+      float: left;
+  
+      width: 20%;
+  
+    }
+  
+  }
