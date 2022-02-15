@@ -40,3 +40,40 @@ header img{
     height: auto;
 }
 
+/* NAVBAR */
+
+.bg-primary{
+    background-color: var(--primary-color)!important;
+}
+
+nav{
+    box-shadow: 0px 3px 6px black;
+}
+
+nav a{
+    color: white;
+    font-family: var(--font-subtittle);
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+
+
+/* HEROSECTION */
+
+#heroSection{
+    background-image: url(../img/HeroSectionimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+      
+}
+
+#heroSection h1{
+    font-family: var(--font-navbar);
+    text-shadow: 0px 3px 6px black
+}
+
+#heroSection .btn{
+    font-family: var(--font-subtittle);   
+    box-shadow: 0px 3px 6px black; 
+}
