@@ -138,3 +138,33 @@ nav a{
     }
   
   }
+
+  #homePortafolio h3{
+    font-family: var(--font-subtittle);
+    font-size: 1rem;
+
+  }
+
+#homePortafolio .img-fluid {
+  align-items: middle!;
+}
+
+@media (min-width: 992px) {
+  
+  #homePortafolio h3{
+    
+    font-size: 0.875rem;
+
+  }
+
+}
+
+@media (min-width: 768px) {
+  
+  #homePortafolio h3{
+    
+    font-size: 0.875rem;
+
+  }
+
+}
