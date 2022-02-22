@@ -34,6 +34,9 @@
 
 /* HEADER */
 
+#header{  
+  box-shadow: 0px 3px 6px black;
+}
 
 header img{
     width: 6.625rem;
@@ -79,6 +82,13 @@ nav a{
     box-shadow: 0px 3px 6px black; 
 }
 
+nav a{
+  color: rgb(0, 0, 0)!important;
+}
+
+.text-dark{
+  color: rgb(0, 0, 0)!important;
+}
 /* PORTAFOLIO */
 
 .col-xs-5,
@@ -146,7 +156,7 @@ nav a{
   }
 
 #homePortafolio .img-fluid {
-  align-items: middle!;
+  align-items: middle;
 }
 
 @media (min-width: 992px) {
@@ -167,4 +177,16 @@ nav a{
 
   }
 
+}
+
+#homePortafolio img{
+  box-shadow: 0px 3px 6px black;
+}
+
+/* 
+ICONOS */
+
+#icon h3{
+  font-family: var( --font-tittle);
+  font-size: 1rem;
 }
