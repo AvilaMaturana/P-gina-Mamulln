@@ -27,7 +27,7 @@
        <div class="container">
            <div class="row justify-content-between align-items-center">
             <div id="img-head" class="col">
-                <img src="assets/img/logo.svg" alt="logo-mamulln" class="">           
+                <img src="assets/img/logo.svg" alt="logo-mamulln" class="logo-mamulln">           
             </div>
             <div class="col text-white text-end">
           
@@ -55,7 +55,7 @@
       </div>
     </nav>
 
-    <section id="heroSection">
+    <section id="heroSection" class="">
       <div class="container py-5 text-white">
         <div class="py-5">
           <h1 class="fs-2">
@@ -152,21 +152,25 @@
     </section>
 
     <section id="comentarios">
-      <h2>Comentarios</h2>
+      <h2 class="text-dark text-center py-3">Comentarios</h2> 
       <div class="container">
-        <div class="row">
-          <div class="col-md-9">
-            <div>
-              <img src="assets/img/user01.png" alt="usuario-01" class="img-fluid">
-            </div>
-            <div>
-              <h4>Miguel "Dunga" Tortuga</h4>
-              <h5>Vocalista Combo Tortuga</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis reprehenderit, sit accusantium fuga vitae facilis delectus cumque consequuntur commodi voluptate!</p>
-            </div>          
+        <div class="row my-3">
+          <div class="col-md-9 border border-dark d-flex align-items-center">
+            <div class="alinear d-flex justify-content-start align-items-center my-3">
+              <div class="d-inline-block d-flex align-items-center">
+                <img id="imgUser01" src="assets/img/user01.png" alt="usuario-01" class="img-fluid p-1">
+              </div>
+              <div id="textoUseruno" class="d-inline-block ps-2">
+                <h5 class="mb-0">Miguel "Dunga" Tortuga</h5>
+                <h6 class="mb-0">Vocalista Combo Tortuga</h6>
+                <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit sadsdadad.
+                   Veritatis reprehenderit, sit accusantium fuga vitae facilis
+                    delectus cumque consequuntur commodi voluptate!</p>
+              </div>      
+            </div>    
           </div>
           <div class="col-md-3">
-            <img src="assets/img/Arquitectura-osb.png" alt="proyecto-user01">
+            <img id="imgWork01" src="assets/img/prueba-01-user.png" alt="proyecto-user01">
           </div>
           <div>
 
@@ -174,6 +178,33 @@
         </div>
       </div>
     </section>
+
+
+    <footer class="bg-primary py-5 text-white">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-4">
+            <img src="assets/img/logo.svg" alt="logo-mamulln" class="logo-mamulln">
+          </div>
+          <div class="col-md-4">
+            <h6>Casco historico Santiago Centro</h6>
+            <h6>Metro Ñuble</h6>
+            <h6>+5691234567</h6>
+            <h6>+5691234567</h6>
+            <p> Muebles con diseño y a pedido. <br> Creamos y restauramos <br> tus sueños</p>
+          </div>
+          <div class="col-md-4">
+            <div class="d-inline-block">
+              <i class="fab fa-instagram fa-3x"></i>
+          </div>
+          <div class="d-inline-block ps-1">
+              <i class="fab fa-whatsapp fa-3x"></i>
+          </div> 
+          </div>
+        </div>
+      </div>
+
+    </footer>
 
 
     
