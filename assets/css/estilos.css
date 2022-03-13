@@ -530,3 +530,17 @@ footer img {
 		margin-left: 0px;
 	}
 }
+
+
+/* MUEBLES */
+
+.grid-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item:hover{
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
