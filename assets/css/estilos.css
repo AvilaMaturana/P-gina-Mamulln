@@ -533,31 +533,139 @@ footer img {
 
 
 /* MUEBLES */
-
+/* 
 .grid-item{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .grid-item:hover{
-  filter: opacity(0.9);
+  filter: opacity(0.8);
   transform: scale(1.04);
 }
 
 .grid-container{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: minmax(200px, auto);
-  gap: 20px;
-  padding: 20px;
-  grid-auto-flow: dense;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  padding: 10px;
+  grid-gap: 10px;
 }
 
-.wide{
-  grid-column: span 2;
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.tall {
-  grid-row: span 2;
+.grid-item{
+  position: relative;
+}
+
+.gallery-title{
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(rgba(255,255,255,0.1),rgba(0,0,0,1));
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+.grid-item:nth-child(4){
+  grid-column-start: span 2;
+
+}
+
+.grid-item:nth-child(5){
+  grid-row-start: span 2;
+
+}
+
+.grid-item:nth-child(9){
+  grid-column-start: span 2;
+
+}
+
+@media (min-width: 768px){
+  .grid-container{
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid-item:nth-child(3){
+    grid-column-start: span 2;
+  
+  }
+
+  .grid-item:nth-child(4){
+    grid-column-start: span 3;
+  
+  }
+  
+  .grid-item:nth-child(5){
+    grid-row-start: span 3;
+  
+  }
+  
+  .grid-item:nth-child(9){
+    grid-column-start: span 3;
+  
+  }
+
+}
+
+@media (min-width: 1024px){
+  .grid-container{
+    grid-template-columns: repeat(5, 1fr);
+    width: 90%;
+    margin: auto;
+  }
+
+  .grid-item:nth-child(1){
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+  
+  }
+
+  .grid-item:nth-child(4){
+    grid-column-start: span 3;
+    grid-row-start: span 3;
+  
+  }
+
+}
+
+@media (max-width: 576px){
+
+  .grid-container{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin: auto;
+  }
+
+  .grid-item:nth-child(3){
+    grid-column-start: span 1;
+  
+  }
+
+  .grid-item:nth-child(4){
+    grid-column-start: span 1;
+  
+  }
+  
+  .grid-item:nth-child(5){
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+  
+  }
+  
+  .grid-item:nth-child(9){
+    grid-column-start: span 1;
+    
+  
+  }
+
+
 }
