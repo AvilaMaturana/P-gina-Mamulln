@@ -534,11 +534,17 @@ footer img {
 
 /* MUEBLES */
 /* 
+
 .grid-item{
   display: flex;
   align-items: center;
   justify-content: center;
 } */
+
+section h2{
+  font-family: var(--font-navbar);
+  color: rgb(0, 0, 0);
+}
 
 .grid-item:hover{
   filter: opacity(0.8);
@@ -669,4 +675,24 @@ footer img {
   }
 
 
+}
+
+
+/* CAROUSEL */
+
+main img {
+	cursor: pointer;
+}
+
+.carousel-item img {
+	max-height: 90vh;
+}
+
+
+/* BREADCRUMBS */
+
+#peso-muebles #breadcrumb li a{
+  font-family: var(--font-navbar);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
