@@ -574,11 +574,11 @@ section h2{
   bottom: 0;
   color: white;
   text-decoration: none;
-  background: linear-gradient(rgba(0, 0, 0, 0.3),rgb(0, 0, 0));
+  background: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
   width: 100%;
   margin: 0;
   padding: 10px;
-  font-family: var(--font-navbar);
+  font-family: var(--font-text);
 }
 
 .grid-item:nth-child(4){
@@ -596,7 +596,28 @@ section h2{
 
 }
 
-@media (min-width: 768px){
+.grid-item:nth-child(10){
+  grid-column-start: span 2;
+
+}
+
+.grid-item:nth-child(15){
+  grid-column-start: span 2;
+
+}
+
+.grid-item:nth-child(16){
+  grid-column-start: span 2;
+
+}
+
+.grid-item:nth-child(19){
+  grid-column-start: span 3;
+
+}
+
+
+@media (min-width: 700px){
   .grid-container{
     grid-template-columns: repeat(4, 1fr);
   }
@@ -621,6 +642,40 @@ section h2{
   
   }
 
+  .grid-item:nth-child(10){
+    grid-column-start: span 2;
+  
+  }
+
+ 
+
+  .grid-item:nth-child(14){
+    grid-column-start: span 3;
+  
+  }
+ 
+  
+  
+  .grid-item:nth-child(15){
+    grid-row-start: span 3;
+  
+  }
+  
+  .grid-item:nth-child(16){
+    grid-column-start: span 2;
+  
+  }
+
+  .grid-item:nth-child(17){
+    grid-column-start: span 2;
+  
+  }
+  
+  .grid-item:nth-child(18){
+    grid-column-start: span 2;
+  
+  }
+
 }
 
 @media (min-width: 1024px){
@@ -641,6 +696,41 @@ section h2{
     grid-row-start: span 3;
   
   }
+
+  .grid-item:nth-child(11){
+    grid-column-start: span 3;
+    grid-row-start: span 1;
+  
+  }
+
+ 
+
+  .grid-item:nth-child(15){
+    grid-column-start: span 3;
+    grid-row-start: span 2;
+  
+  }
+
+  .grid-item:nth-child(16){
+    grid-column-start: span 1;
+    
+  
+  }
+  .grid-item:nth-child(17){
+    grid-column-start: span 1;
+    grid-row-start: span 2;    
+  
+  }
+
+  .grid-item:nth-child(18){
+    grid-column-start: span 1;
+    
+    
+  
+  }
+
+
+
 
 }
 
@@ -674,8 +764,47 @@ section h2{
   
   }
 
+  .grid-item:nth-child(10){
+    grid-column-start: span 1;
+    
+  
+  }
+
+  .grid-item:nth-child(11){
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+  
+  }
+
+ 
+
+  .grid-item:nth-child(15){
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+  
+  }
+
+  .grid-item:nth-child(16){
+    grid-column-start: span 1;
+    
+  
+  }
+  .grid-item:nth-child(17){
+    grid-column-start: span 1;
+    grid-row-start: span 1;    
+  
+  }
+
+  .grid-item:nth-child(18){
+    grid-column-start: span 1;
+    
+    
+  
+  }
+
 
 }
+
 
 
 /* CAROUSEL */
