@@ -195,6 +195,14 @@ ICONOS */
   font-size: 1rem;
 }
 
+.text-dark {
+  color: rgb(34, 34, 34)!important;
+}
+
+.bg-dark{
+  background-color: rgb(34, 34, 34)!important;
+}
+
 /* COMENTARIOS */
 
 #comentarios h2{
@@ -574,7 +582,7 @@ section h2{
   bottom: 0;
   color: white;
   text-decoration: none;
-  background: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+  background: linear-gradient(rgb(34, 34, 19),rgb(34, 34, 34));
   width: 100%;
   margin: 0;
   padding: 10px;
