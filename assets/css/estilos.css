@@ -406,7 +406,66 @@ footer img {
 }
 
 .grid-item-two:nth-child(5){
-  grid-column-start: span 2;
+  grid-column-start: span 4;
+
+}
+
+@media (max-width: 992px){
+
+  .grid-item-two:nth-child(1){
+    grid-row-start: span 2;
+  
+  }
+
+  .grid-item-two:nth-child(2){
+    grid-column-start: span 2;
+  
+  }
+
+  .grid-item-two:nth-child(3){
+    grid-column-start: span 1;
+  
+  }
+  
+  .grid-item-two:nth-child(4){
+    grid-column-start: span 3;
+  
+  }
+  
+  .grid-item-two:nth-child(5){
+    grid-column-start: span 4;
+  
+  } 
+
+}
+
+@media (max-width: 768px){
+
+  .grid-item-two:nth-child(1){
+    grid-column-start: span 4;
+    grid-row-start: span 1;
+  
+  }
+
+  .grid-item-two:nth-child(2){
+    grid-column-start: span 4;
+  
+  }
+
+  .grid-item-two:nth-child(3){
+    grid-column-start: span 4;
+  
+  }
+  
+  .grid-item-two:nth-child(4){
+    grid-column-start: span 4;
+  
+  }
+  
+  .grid-item-two:nth-child(5){
+    grid-column-start: span 4;
+  
+  } 
 
 }
 
@@ -706,4 +765,11 @@ main img {
   font-family: var(--font-navbar);
   text-decoration: none;
   color: rgb(0, 0, 0);
+}
+
+
+/* CONTACTO */
+
+section #contacto{
+  justify-content: center!important;
 }
