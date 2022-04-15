@@ -387,7 +387,10 @@ footer img {
   }
 
 }
-
+#text-decoration button a{
+  text-decoration: none;
+  color: white;
+}
 
 
 /* ARQUITECTURA */
